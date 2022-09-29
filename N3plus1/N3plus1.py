@@ -4,8 +4,8 @@ number = input("please enter a number:")
 
 steps = 0
 
-while number => 1
-      if number == uneven
+while number >= 1:
+      if number == #uneven:
       number = number x 3 + 1
       steps = steps +1
       else
@@ -13,4 +13,4 @@ while number => 1
           steps = steps + 1
           break
       print(number)
-      print(steps):
+      print(steps)
