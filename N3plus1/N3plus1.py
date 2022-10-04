@@ -1,16 +1,25 @@
 
-
-number = input("please enter a number:")
-
+#this algo shows how many times the number is modified until it reaches 0 within the context of the N3+1 math problem
+number = 0
 steps = 0
 
-while number >= 1:
-      if number == #uneven:
-      number = number x 3 + 1
-      steps = steps +1
-      else
-          number = number % 2
-          steps = steps + 1
-          break
-      print(number)
-      print(steps)
+
+
+number = int(input("please enter a number:"))
+
+
+
+while number > 0:
+   if number % 2 == 0:
+      number = number % 2
+      #print(number)
+      steps = steps + 1
+   else:  
+        number = number * 3 + 1
+        #print(number)
+        steps = steps + 1
+
+
+print(steps)
+
+#i think it needs a better way to determine odd number, now number = number % 2 results in 0
